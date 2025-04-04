@@ -1,48 +1,63 @@
 th {
-    border:1px solid black;
+    border:1px solid darkolivegreen;
     text-align: center;
 }
 table {
-    border:1px solid black;
+    border:1px solid darkolivegreen;
     text-align: center;
     table-layout: fixed;
 }
 td {
-    border:1px solid black;
+    border:1px solid darkolivegreen;
     text-align: center;
 }
 #details {
-    border:1px solid black;
+    border:1px solid darkolivegreen;
     width:100%;
     text-align: center;
 }
 #recordstbl {
-    border:1px solid black;
+    border:1px solid darkolivegreen;
     width:100%;
     text-align: center;
 }
-body{
+body {
     background-color: beige;
 }
-h1{
+h1 {
     text-align: center;
     padding-top: 5%;
-    font-family: Helvetica;
+    font-family: Cochin;
 }
 form {
     text-align: center;
     font-size: 20px;
 }
-h2{
+h2 {
     text-align: center;
-    font-family: Helvetica;
+    font-family: Cochin;
 }
-#ename{
-    text-align: center;
-}
-#cIn{
+#ename {
     text-align: center;
 }
-#cOut{
+#cIn {
     text-align: center;
 }
+#cOut {
+    text-align: center;
+}
+#alt1 { 
+    background-color: darkolivegreen;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: 2px 3px black;
+    color: white;
+}
+.button {
+    background-color: bisque;
+    color: black;
+    border: 2px solid;
+}
+.button:hover {background-color: darkolivegreen;}
