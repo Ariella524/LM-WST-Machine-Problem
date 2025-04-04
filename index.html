@@ -3,44 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ledina-Manansala WST (04/04/2025)</title>
-    
+    <title>LM-WST-EWH CALCULATOR</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Employee Work Hours Calculator</h1>
+    <h1>EMPLOYEE WORK HOURS CALCULATOR</h1>
         
     <form>
         <div>
             <label for="ename">Employee name:</label>
-            <input type="text" id="ename"  placeholder="Spongebob">
+            <input type="text" id="ename"  placeholder="eg. Juan Dela Cruz">
         </div>
         <br>
         <div>
             <label for="cIn">Clock-In Date Time:</label>
-            <input type="datetime-local" id="cIn"  placeholder="10pm">
+            <input type="datetime-local" id="cIn"  placeholder=" ">
         </div>
         <br>
         <div>
             <label for="cOut">Clock-Out Date Time:</label>
-            <input type="datetime-local" id="cOut"  placeholder="10pm">
+            <input type="datetime-local" id="cOut"  placeholder=" ">
         </div>
         <br>
         <div>
-            <input type="button" id="submit">
+            <input type="button" label="Enter" id="submit">
         </div>
-        <script src="main.js"></script>
+        <script src="main.js"></script> 
     </form>
-    <h3 id ="myh3">Total Hours Worked:</h3>
-    
-    <style>
-        table, th, td {
-          border:1px solid black;
-        }
-    </style>
+    <h3 id ="myh3"></h3>
       
         <h2>Total Hours Worked</h2>
         
-    <table style="width:100%">
+    <table id = "details">
             <tr>
                 <th>Employees</th>
                 <th>Check-In Date Time</th>
@@ -52,6 +46,23 @@
                 <th id = "cInDT"></th>
                 <th id = "cOutDT"></th>
                 <th id = "THW"></th>
+            </tr>
+    </table>
+
+    <h2>Records</h2>
+        
+    <table id = "recordstbl">
+            <tr>
+                <th>Total Empolyees</th>
+                <th>Average Hours Worked</th>
+                <th>Earliest Work Day</th>
+                <th>Latest Work Day</th>
+            </tr>
+            <tr>
+                <th id = "ttlemp"></th>
+                <th id = "ave"></th>
+                <th id = "earliest"></th>
+                <th id = "latest"></th>
             </tr>
     </table>
 
