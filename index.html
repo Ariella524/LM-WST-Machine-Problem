@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LM-WST-EWH CALCULATOR</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Ledina-Manansala WST (04/04/2025)</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>EMPLOYEE WORK HOURS CALCULATOR</h1>
+    <h1 id="alt1">EMPLOYEE WORK HOURS CALCULATOR</h1>
         
     <form>
         <div>
             <label for="ename">Employee name:</label>
-            <input type="text" id="ename"  placeholder="eg. Juan Dela Cruz">
+            <input type="text" id="ename"  placeholder="eg. John Dela Cruz">
         </div>
         <br>
         <div>
@@ -26,9 +27,9 @@
         </div>
         <br>
         <div>
-            <input type="button" label="Enter" id="submit">
+            <input type="button" value="Submit" onclick="AddRow()" label="Enter" id="submit" class="button">
         </div>
-        <script src="main.js"></script> 
+        <script src="main.js"></script>
     </form>
     <h3 id ="myh3"></h3>
       
@@ -40,12 +41,6 @@
                 <th>Check-In Date Time</th>
                 <th>Check-Out Date Time</th>
                 <th>Total Hours Worked</th>
-            </tr>
-            <tr>
-                <th id = "employees"></th>
-                <th id = "cInDT"></th>
-                <th id = "cOutDT"></th>
-                <th id = "THW"></th>
             </tr>
     </table>
 
